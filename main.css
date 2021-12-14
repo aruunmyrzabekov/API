@@ -1,0 +1,37 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #fff;
+    }
+    
+    body {
+        min-height: 100vh;
+    }
+    
+    .iframe {
+        width: 60%;
+        display: flex;
+        border-radius: 50%;
+    }
+    
+    .col-3 {
+        width: 20%;
+    }
+    
+    #row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        margin: 30px 15px;
+    }
+    
+    p {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
